@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+nav{margin: 50px;}
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	float: left;
+	position: relative;
+		}
+nav ul li ul{
+	position: absolute;
+	top: 27px;
+	left: 0px;
+	display: none;
+}
+
+nav ul li a{
+	padding: 10px;
+	background-color: black;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	background-color: red;
+	color: green;
+}
+
+nav ul a.active{
+	background-color: red;
+	color: green;
+}
+
+nav ul li ul li{ line-height: 37px;}
+nav ul li:hover ul{display: block;}
+.clear{clear: both;}
+
